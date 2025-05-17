@@ -18,7 +18,7 @@ const API_OPTIONS = {
 function App() {
   const [searchTerm, setSearchTerm] = useState("")
   const [errorMessage, setErrorMessage] = useState("")
-  const [trendingMovies, setTrendingMovies] = useState([])
+
   const [movieList, setMovieList] = useState([])
   const [isLoading, setIsLoading] = useState(false)
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState("")
